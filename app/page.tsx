@@ -5,6 +5,8 @@ import UserList from '../components/UserList';
 import axios from 'axios';
 import { User } from '../types/user';
 
+
+
 const HomePage = () => {
   const [users, setUsers] = useState<User[]>([]);
 
